@@ -1,0 +1,211 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline:none;
+    vertical-align:baseline;
+}
+img {
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+em{
+    font-style: normal;
+}
+li {
+    list-style: none;
+}
+html, body {
+    background: #eee;
+    font-size: 10px;
+}
+header{
+	width: 100%;
+	height: 4rem;
+	position: fixed;
+	z-index: 999;
+	/*background: #FF4B6C;*/
+	background: url(../img/bg2.png) no-repeat;
+	background-size: cover;
+}
+header>.zuo{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 4rem;
+	height: 4rem;
+	background: url(../img/back.png) no-repeat center;
+	background-size: 80% 80%;
+}
+header>.zj{
+	color: white;
+	font-size: 1.7rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	 margin: -1rem 0 0 -10%;
+}
+
+.sc1{
+	padding-top: 4rem;
+	background: white;
+}
+.sc1>.b{
+	font-size: 1rem;
+	color: red;
+	margin-left: 1rem;
+	width: 95%;
+}
+.sc1>.n{
+	color: #000000;
+	font-size: 1.5rem;
+}
+.sc1>.n1{
+	color: #000000;
+	font-size: 1rem;
+}
+.sc1>.n2{
+	color: #A5A5A5;
+	background: #F5F5F5;
+	font-size: 1rem;
+	margin-top: 0.5rem;
+	height: 1.5rem;
+	position: relative;
+}
+.sc1>.n2>.t{
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+	background: url(../img/icon-sc.png) no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0.2rem;
+}
+.sc1>.n2>.w{
+	margin-left: 1.4rem;
+}
+.sc2{
+	background: white;
+}
+.sc2>.y{
+	margin-left: 1rem;
+/*	margin-top: 1rem;*/
+	font-size: 1.2rem;
+	height: 3rem;
+	line-height: 3rem;
+}
+.sc2>.y>span{
+	color: #555555;
+	margin-left: 2rem;
+}
+.xia{
+	margin-top: 0.5rem;
+    position: relative;
+    width: 100%;
+    height: 0.1em;
+    background: #d8d8d8;
+}
+.sc3{
+/*	width: 100%;*/
+	background: white;
+	margin-top: 2rem;
+/*	height: 10rem;*/
+	padding: 1rem;
+	position: relative;
+}
+.sc3>.e{
+   font-size: 1.2rem;
+   position: absolute;
+   left: 5.5rem;
+}
+section>.sec7{
+		width: 99%;
+		height: 10rem;
+		position: relative;
+		top: 0.5rem;
+		/*left: 1rem;*/
+		border: 0px solid red;
+		overflow: hidden;
+		overflow-x:scroll ;
+		background: white;
+	}
+	section>.sec7>ul{
+		width: 200%;
+	}
+	section>.sec7>ul>li{
+		width: 12%;
+		height: 10rem;
+		float: left;
+		margin-right: 0.5rem;
+		text-align: center;
+		font-size: 1.25rem;
+		color: black;
+		position: relative;
+	}
+	section>.sec7>ul>li>p:nth-child(2){
+		position: absolute;
+		bottom: 15%;
+	}
+	section>.sec7>ul>li>p:nth-child(3){
+		position: absolute;
+		bottom: 0%;
+		color: red;
+	}
+	section>.sec7>ul>li>p:nth-child(3)>del{
+		color: #DCDCDC;
+		font-size: 1rem;
+		float: right;
+		margin-top: 0.2rem;
+		margin-left: 0.8rem;
+	}
+	section>.sec7>ul>li>img{
+		width:100%;
+		height: 60%;	
+	}
+	section>.sec7>ul>li>p{
+		font-size: 1rem;
+	}
+.sec8{
+	background: white;
+	padding-top: 1rem;
+	text-align: center;
+	font-size: 1rem;
+	margin-top: 1rem;
+}
+section>.sec11{
+		width:95%;
+		height: 4rem;
+		position: relative;
+		top: 3rem;
+		left: 2.5%;
+		
+	}
+	section>.sec11>img{
+		width: 100%;
+		height: 100%;
+	}
+section>.sec12{
+        width:95%;
+		height: 80rem;
+		position: relative;
+		top: 3rem;
+		left: 2.5%;
+		background: white;
+}
+section>.sec12>ul{
+	width: 100%;
+	/*height: 10rem;*/
+	border: 1px solid red;
+}
+section>.sec12>ul>li{
+	width: 45%;
+	height: 15rem;
+	float: left;
+/*	border: 1px solid red;*/
+
+}
+section>.sec12>ul>.e{
+	margin-right: 2rem;
+}

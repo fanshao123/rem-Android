@@ -1,0 +1,241 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline:none;
+    vertical-align:baseline;
+}
+img {
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+em{
+    font-style: normal;
+}
+li {
+    list-style: none;
+}
+html, body {
+    background: #eee;
+    font-size: 10px;
+}
+header{
+	width: 100%;
+	height: 4rem;
+	position: fixed;
+	z-index: 999;
+	/*background: #FF4B6C;*/
+	background: url(../img/bg2.png) no-repeat;
+	background-size: cover;
+}header>.zuo{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 4rem;
+	height: 4rem;
+	background: url(../img/back.png) no-repeat center;
+	background-size: 80% 80%;
+}
+header>.zj{
+	color: white;
+	font-size: 1.7rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	 margin: -1rem 0 0 -10%;
+}
+/*header>.you{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 4rem;
+	height: 4rem;
+	background: url(../img/lo1.png) no-repeat center;
+	background-size: 80% 80%;
+}*/
+section{
+	width: 100%;
+	box-sizing: border-box;
+    padding: 4rem 0rem 0;
+}
+.sc1{
+	width: 100%;
+	height: 6rem;
+	background: white;
+	border-bottom: 0.1rem dashed  #EC6D6D;
+}
+.sc1>p{
+	font-size: 1.2rem;
+	padding-top: 1rem;
+	padding-left: 1rem;
+}
+.sc1>.z{
+	font-size: 1rem;
+	color: #A4A9C1;
+}
+.sc1>p>.a{
+	font-size: 1.1rem;
+	border: 0.01rem solid #62A4FB;
+	color: #62A4FB;
+	padding: 0.1rem;
+	margin-left: 0.5rem;
+}
+.sc1>p>.b{
+	font-size: 1.1rem;
+	border: 0.01rem solid #FC7E7A;
+	color: #FC7E7A;
+	padding: 0.1rem;
+	margin-left: 0.5rem;
+}
+.sc2{
+	 padding: 1rem;
+    margin-top: 3px;
+    height: 100%;
+    width: 100%;
+    background: white;
+    box-sizing: border-box;
+}
+.sc2>.y{
+	 margin-top: 1rem;
+    position: relative;
+}
+.sc2>.y>.top{
+	  width: 98%;
+      display:flex;
+}
+.sc2>.y>.top>img{
+	margin-right: 1rem;
+    width: 6.5rem;
+    height: 6.5rem;
+}
+.sc2>.y>.top>nav>p{
+	  color: #A5A7A8;
+    font-size: 1.4rem;
+}
+.sc2>.y>.top>nav>p>span>img{
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.sc2>.y>.top>nav>.sp{
+	 line-height: 2rem;
+    color: red;
+    font-size: 1.6rem;
+}
+.sc2>.y>.top>nav>.sd{
+	position: absolute;
+	right: 0rem;
+	top: 4rem;
+	font-size: 1rem;
+}
+.sc2>.y>.top>nav>.sp>span{
+	 line-height: 2rem;
+    color: #333333;
+    font-size: 1.3rem;
+}
+.sc2>.xia{
+	margin-top: 1rem;
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background: #d8d8d8;
+}
+.e{
+	width: 99%;
+	background: white;
+	position: relative;
+		padding-bottom: 1rem;
+}
+.bian{
+	padding-top: 1rem;
+}
+.huan{
+	margin-top: 0.5rem;
+}
+.e>p{
+	font-size: 1.5rem;
+	padding: 1rem 1rem 1rem 1.5rem;
+}
+.e>.you{
+	position: absolute;
+	right: 2rem;
+	top: -1.2rem;
+	font-size: 1rem;
+}
+
+.e>.x{
+	top: 1.7rem;
+}
+.le>.x{
+	top: 1.2rem;
+}
+.hong{
+	height: 8rem;
+}
+.hong>.x{
+	top: 0.5rem;
+	color: red;
+}
+.e>.you>a>span{
+	position: absolute;
+	right: -2rem;
+	top: 1.5rem;
+	/*display: inline-block;*/
+	width: 3rem;
+	height: 3rem;
+	background: url(../img/youjiant.png) no-repeat center;
+	background-size: 80% 80%;
+}
+.bian>.you>a>span{
+	top: 2.5rem;
+}
+.e>.x>span{
+	left: -1rem;
+	top: 0.9rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	background: url(../img/lingdang.png) no-repeat center;
+	background-size: 80% 80%;
+}
+.sc3{
+	background: #FFF3DC;
+	padding-top: 1rem;
+}
+.sc3>p{
+	font-size: 1rem;
+	padding: 0.5rem 1rem 1rem 0.8rem;
+	color: #F66959;
+}
+footer{
+	position: fixed;
+	left: 0rem;
+	bottom: -0rem;
+	z-index: 999;
+	width: 100%;
+	background: white;
+	height: 4rem;
+	border-top: 0.01rem solid #F0F2F5;
+	box-shadow: 0rem -0.01rem 0.4rem #F0F2F5;
+}
+footer>.y{
+	height: 4rem;
+	line-height: 4rem;
+	font-size: 1rem;
+	margin-left: 1rem;
+	color: red;
+}
+footer>.e{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 4rem;
+	width: 7rem;
+	line-height: 4rem;
+	background: #FC6248;
+	text-align: center;
+	font-size: 1rem;
+}
+footer>.e>a{
+	color: white;
+}

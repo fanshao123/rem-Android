@@ -1,0 +1,159 @@
+	*{
+  		margin: 0px;
+  		padding: 0px;
+  		border: 0;
+		outline: none;
+		vertical-align: baseline;
+  	}
+  	::-webkit-scrollbar{
+  		display: none;
+  	}
+	img {
+		border: none;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+	
+	em {
+		font-style: normal;
+	}
+	
+	li {
+		list-style: none;
+	}
+	
+	html,body {
+		background: white;
+		font-size: 10px;
+	}
+	
+	header{
+	width: 100%;
+	height: 4rem;
+	position: fixed;
+	z-index: 999;
+	/*background: #FF4B6C;*/
+	background: url(../img/bg2.png) no-repeat;
+	background-size: cover;
+}
+header>.zuo{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 4rem;
+	height: 4rem;
+	background: url(../img/back.png) no-repeat center;
+	background-size: 80% 80%;
+}
+header>.zj{
+	color: white;
+	font-size: 1.7rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	 margin: -1rem 0 0 -10%;
+}
+	.sec1{
+		padding-top: 4rem;
+		position: relative;
+	}
+	.sec1>ul>li{
+		width: 25%;
+		height: 2.5rem;
+		float: left;
+		text-align: center;
+		font-size: 1rem;
+		box-shadow: 0px 0.2rem 0px #DDDDDD;
+	}
+	.sec1>ul>.active{
+		border-bottom:0.01rem solid red ;
+	}
+	.sec1>ul>li>p{
+		margin-top: 0.5rem;
+	}
+	.sec2{
+		width: 100%;
+		/*height: 6rem;*/
+		position: relative;
+		top: 3.2rem;
+	}
+	.sec2>ul>li{
+		width: 100%;
+		/*height: 25rem;*/
+		position: absolute;
+		top: 0px;
+		left: 0%;
+		display: none;		
+	}
+	.sec2>ul>li>p{
+		font-size: 1rem;
+		color: #888888;
+	}
+	.sec2>ul>.add{
+		display: block;
+	}
+	.ling{
+		width: 100%;
+		height: 2.5rem;
+		background: #FFF3DC;
+		line-height: 2.5rem;
+		font-size: 1rem;
+		color: #F8877C;
+	}
+	.sec2>ul>li>ul>li{
+		width: 100%;
+		height: 8rem;	
+	}
+	.sec2>ul>li>ul>li>.aa{
+		width: 100%;
+		height: 5rem;
+		border-bottom: 0.2rem solid #DDDDDD;
+		position: relative;
+	}
+	.sec2>ul>li>ul>li>.aa>img{
+		height: 100%;
+		position: absolute;
+		left: 0.2rem;
+	}
+	.sec2>ul>li>ul>li>.aa>.p{
+		font-size: 0.5rem;
+		position: absolute;
+		top: 7%;
+		left: 18%;
+	}
+	.sec2>ul>li>ul>li>.aa>.p1{
+		font-size: 1.5rem;
+		color: red;
+		position: absolute;
+		top: 41%;
+		left: 17%;
+	}
+	.sec2>ul>li>ul>li>.aa>.p1>del{
+		font-size: 1rem;
+		color: #ADADAD;
+	}
+	.sec2>ul>li>ul>li>.aa>.p2{
+		font-size: 1rem;
+		color: #ADADAD;
+		float: right;
+		line-height: 5rem;
+		margin-right: 0.5rem;
+	}
+	.sec2>ul>li>ul>li>.bb{
+		width: 100%;
+		height: 3rem;
+		position: relative;
+	}
+	.sec2>ul>li>ul>li>.bb>a{
+		background: #FF5E53;
+		font-size: 1rem;
+		color: white;
+		float: right;
+		padding: 0.1rem 0.5rem;
+		border-radius: 0.2rem;
+		position: absolute;
+		top: 23%;
+		right: 0.5rem;
+	}

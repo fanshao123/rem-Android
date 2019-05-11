@@ -1,0 +1,331 @@
+{
+  "tianxiedingdan.html": {
+    "href": "tianxiedingdan.html",
+    "resources": [
+      "js/jquery-1.8.3.min.js",
+      "js/remstyle.js",
+      "css/tianxiedingdan.css",
+      "img/dizhilogo.png",
+      "img/faxian/sf-7.jpg",
+      "img/bag2.png",
+      "img/bag1.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "tuishou.html": {
+    "href": "tuishou.html",
+    "resources": [
+      "js/jquery-1.8.3.min.js",
+      "js/remstyle.js",
+      "css/tuishou.css",
+      "img/bg/icon-jp.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "shezhi.html": {
+    "href": "shezhi.html",
+    "resources": [
+      "js/jquery-1.8.3.min.js",
+      "js/remstyle.js",
+      "css/shezhi.css"
+    ],
+    "refer": [
+      "wode.html",
+      "tianxiedingdan.html",
+      "tuishou.html"
+    ],
+    "priority": 0
+  },
+  "bojinhuiyuan.html": {
+    "href": "bojinhuiyuan.html",
+    "resources": [
+      "js/jquery-3.0.0.min.js",
+      "js/bojinhuiyuan.js",
+      "css/bojinhuiyuan.css",
+      "img/faxian/sf-3.jpg",
+      "img/faxian/sf-5.jpg",
+      "img/faxian/sf-6.jpg",
+      "img/faxian/sf-8.jpg"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "shouyintai.html": {
+    "href": "shouyintai.html",
+    "resources": [
+      "js/jquery-1.8.3.min.js",
+      "js/remstyle.js",
+      "css/shouyintai.css",
+      "img/icon/pay.png",
+      "img/apy-2.png",
+      "img/apy-1.png",
+      "img/apy-3.png",
+      "img/apy-4.png",
+      "img/apy-5.png",
+      "img/apy-6.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "gouwu.html": {
+    "href": "gouwu.html",
+    "resources": [
+      "js/jquery-1.8.3.min.js",
+      "js/remstyle.js",
+      "js/jquery-3.0.0.min.js",
+      "js/shopping.js",
+      "css/base.css",
+      "css/module.css",
+      "img/gw/sf-1.jpg",
+      "img/gw/sf-2.jpg",
+      "img/gw/sf-3.jpg",
+      "img/gw/sf-4.jpg",
+      "img/gw/sf-5.jpg",
+      "img/gw/sf-6.jpg"
+    ],
+    "refer": [
+      "shouyintai.html"
+    ],
+    "priority": 0
+  },
+  "wodedingdan.html": {
+    "href": "wodedingdan.html",
+    "resources": [
+      "js/jquery-3.0.0.min.js",
+      "js/xianshiqianggou.js",
+      "css/wodedingdan.css",
+      "img/my/sf-11.jpg",
+      "img/my/sf-12.jpg",
+      "img/my/sf-13.jpg",
+      "img/my/sf-14.jpg",
+      "img/my/sf-15.jpg"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "soucangfenxiang.html": {
+    "href": "soucangfenxiang.html",
+    "resources": [
+      "js/jquery-3.0.0.min.js",
+      "js/bojinhuiyuan.js",
+      "css/bojinhuiyuan.css",
+      "img/faxian/sf-3.jpg",
+      "img/faxian/sf-5.jpg",
+      "img/faxian/sf-6.jpg",
+      "img/faxian/sf-8.jpg"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "wode.html": {
+    "href": "wode.html",
+    "resources": [
+      "js/jquery-3.0.0.min.js",
+      "js/remstyle.js",
+      "js/bootstrap.min.js",
+      "css/bootstrap.min.css",
+      "css/wode.css",
+      "img/shezhi.png",
+      "img/bg/icon-tj1.jpg",
+      "img/h_14.png",
+      "img/h_17.png",
+      "img/h_25.png",
+      "img/h_19.png",
+      "img/h_22.png",
+      "img/user/head-3.jpg",
+      "img/pd/sf-15.jpg"
+    ],
+    "refer": [
+      "shezhi.html",
+      "bojinhuiyuan.html",
+      "index.html",
+      "fenlei.html",
+      "faxian.html",
+      "gouwu.html",
+      "wode.html",
+      "wodedingdan.html",
+      "soucangfenxiang.html"
+    ],
+    "priority": 0
+  },
+  "faxian.html": {
+    "href": "faxian.html",
+    "resources": [
+      "css/bootstrap.min.css",
+      "css/faxian.css",
+      "js/faxian.js",
+      "img/user/user4.png",
+      "img/pd/sf-3.jpg",
+      "img/user/user3.png",
+      "img/pd/sf-2.jpg",
+      "img/user/user2.png",
+      "img/pd/sf-1.jpg",
+      "img/user/user0.png",
+      "img/banner/find-1.jpg",
+      "img/banner/find-2.jpg",
+      "img/pd/sf-4.jpg",
+      "img/pd/sf-5.jpg",
+      "img/pd/sf-6.jpg"
+    ],
+    "refer": [
+      "wode.html"
+    ],
+    "priority": 0
+  },
+  "fenlei.html": {
+    "href": "fenlei.html",
+    "resources": [
+      "js/jquery-1.8.3.min.js",
+      "js/remstyle.js",
+      "css/fenlei.css",
+      "img/cf-4.jpg",
+      "img/cf-8.jpg",
+      "img/h_14.png",
+      "img/h_17.png",
+      "img/h_25.png",
+      "img/h_19.png",
+      "img/h_22.png",
+      "img/x-sf-1.jpg",
+      "img/x-sf-2.jpg",
+      "img/x-sf-3.jpg",
+      "img/x-sf-4.jpg",
+      "img/x-sf-5.jpg",
+      "img/x-sf-6.jpg",
+      "img/x-sf-7.jpg",
+      "img/x-sf-8.jpg",
+      "img/x-sf-9.jpg"
+    ],
+    "refer": [
+      "index.html",
+      "fenlei.html",
+      "faxian.html",
+      "gouwu.html",
+      "wode.html"
+    ],
+    "priority": 0
+  },
+  "qiandao.html": {
+    "href": "qiandao.html",
+    "resources": [
+      "js/jquery-1.8.3.min.js",
+      "js/remstyle.js",
+      "js/pintuangouwu.js",
+      "css/pintuangouwu.css",
+      "img/sf-17.jpg",
+      "img/ad/x-sf-9.jpg",
+      "img/my/pd-zf-5.jpg",
+      "img/ad/x-sf-3.jpg",
+      "img/ad/x-sf-4.jpg",
+      "img/ad/x-sf-2.jpg",
+      "img/ad/x-sf-6.jpg"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "xianshiqianggou.html": {
+    "href": "xianshiqianggou.html",
+    "resources": [
+      "js/jquery-3.0.0.min.js",
+      "js/xianshiqianggou.js",
+      "css/xianshiqianggou.css",
+      "img/my/sf-11.jpg",
+      "img/my/sf-12.jpg",
+      "img/my/sf-13.jpg",
+      "img/my/sf-14.jpg",
+      "img/my/sf-15.jpg"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "pintuangouwu.html": {
+    "href": "pintuangouwu.html",
+    "resources": [
+      "js/jquery-1.8.3.min.js",
+      "js/remstyle.js",
+      "js/pintuangouwu.js",
+      "css/pintuangouwu.css",
+      "img/sf-17.jpg",
+      "img/ad/x-sf-9.jpg",
+      "img/my/pd-zf-5.jpg",
+      "img/ad/x-sf-3.jpg",
+      "img/ad/x-sf-4.jpg",
+      "img/ad/x-sf-2.jpg",
+      "img/ad/x-sf-6.jpg"
+    ],
+    "refer": [
+      "index.html"
+    ],
+    "priority": 0
+  },
+  "gouwujuan.html": {
+    "href": "gouwujuan.html",
+    "resources": [
+      "js/jquery-1.8.3.min.js",
+      "js/remstyle.js",
+      "css/gouwujuan.css",
+      "img/icon/icon-info1.jpg"
+    ],
+    "refer": [
+      "index.html",
+      "faxian.html",
+      "tuishou.html"
+    ],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "js/jquery-3.0.0.min.js",
+      "js/–u.js",
+      "css/shouyie.css",
+      "img/pd/cf-1.jpg",
+      "img/pd/cf-3.jpg",
+      "img/pd/cf-4.jpg",
+      "img/pd/cf-5.jpg",
+      "img/pd/cf-7.jpg",
+      "img/pd/cf-6.jpg",
+      "img/bg/icon-tj1.jpg",
+      "img/banner/banner.jpg",
+      "img/banner/banner1.jpg",
+      "img/banner/banner2.jpg",
+      "img/banner/banner3.jpg",
+      "img/ad/tou-1.jpg",
+      "img/ad/tou-2.jpg",
+      "img/ad/tou-3.jpg",
+      "img/ad/tou-4.jpg",
+      "img/ad/tou-5.jpg",
+      "img/ad/tou-6.jpg",
+      "img/pd/sf-10.jpg",
+      "img/pd/sf-11.jpg",
+      "img/pd/sf-12.jpg",
+      "img/pd/sf-13.jpg",
+      "img/pd/sf-14.jpg",
+      "img/pd/sf-15.jpg",
+      "img/pd/sf-16.jpg",
+      "img/ad/x-sf-8.jpg",
+      "img/ad/x-sf-4.jpg",
+      "img/my/pd-zf-4.jpg",
+      "img/h_14.png",
+      "img/h_17.png",
+      "img/h_25.png",
+      "img/h_19.png",
+      "img/h_22.png",
+      "img/user/user2.png"
+    ],
+    "refer": [
+      "index.html",
+      "fenlei.html",
+      "faxian.html",
+      "gouwu.html",
+      "wode.html",
+      "qiandao.html",
+      "xianshiqianggou.html",
+      "bojinhuiyuan.html",
+      "pintuangouwu.html",
+      "gouwujuan.html"
+    ],
+    "priority": 0
+  }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/shouyintai.css"/>
+		<title></title>
+	</head>
+	<body>
+		<header>
+			<a class="zuo"></a>
+			<span class="zj">收银台</span>
+		</header>
+		<section>
+			<div class="sc1">
+				<p>需要支付：<span>399.00元</span></p>
+			</div>
+			<div class="sc2">
+				<p><img src="img/icon/pay.png"/style="width: 9rem;height: 4rem;"></p>
+			</div>
+			<div class="sc3">
+				<p><img src="img/apy-2.png"/style="width: 3rem;height: 3rem;">
+				    <span class="b">农业银行<br /><span class="wz">储蓄卡（0000）</span></span>
+				    <span class="dian">√</span>
+				</p>
+			</div>
+			<div class="sc3">
+				<p><img src="img/apy-1.png"/style="width: 3rem;height: 3rem;">
+				    <span class="b">工商银行<br /><span class="wz">储蓄卡（0000）</span></span>
+				   <span class="dian">√</span>
+				</p>
+			</div>
+			<div class="sc3">
+				<p><img src="img/apy-3.png"/style="width: 3rem;height: 3rem;">
+				    <span class="b">招商银行<br /><span class="wz">储蓄卡（0000）</span></span>
+				    <span class="dian">√</span>
+				</p>
+			</div>
+			<div class="sc4">
+				<p>其他支付方式</p>
+			</div>
+			<div class="sc3">
+				<p><img src="img/apy-4.png"/style="width: 3rem;height: 3rem;">
+				    <span class="b">支付宝<br /><span class="wz">支付宝安全支付</span></span>
+				    <span class="dian">√</span>
+				</p>
+			</div>
+			<div class="sc3">
+				<p><img src="img/apy-5.png"/style="width: 3rem;height: 3rem;">
+				    <span class="b">微信支付<br /><span class="wz">微信安全支付</span></span>
+				    <span class="dian">√</span>
+				</p>
+			</div>
+			<div class="sc3">
+				<p><img src="img/apy-6.png"/style="width: 3rem;height: 3rem;">
+				    <span class="b">专属支付<br /><span class="wz">专属安全支付</span></span>
+				   <span class="dian">√</span>
+				</p>
+			</div>
+		</section>
+		<footer>
+			<a>银行卡支付：399.00元</a>
+		</footer>
+	</body>
+	<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/remstyle.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+		 	 $(".zuo").click(function(){
+			   	window.history.back()
+			})
+		 	$(".sc3>p>.dian").click(function(){
+		 		$(this).css({"background":"#F23030","border":"0.1rem solid #F23030"});
+		 		$(this).parent().parent(".sc3").siblings().children().children(".dian").css({"background":"#FFFFFF","border":"0.1rem solid #888888"});
+		 	})
+		 })
+	</script>
+</html>
